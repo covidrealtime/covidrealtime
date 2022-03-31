@@ -1,6 +1,5 @@
 # R codes for "Real-time analysis of predictors of COVID-19 infection spread in the countries of the European Union"
 
-
 <br>
 <br>
 ## 1. Structure of GitHub Repository
