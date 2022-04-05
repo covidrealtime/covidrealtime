@@ -177,7 +177,7 @@ As one of our main data sources, the UMD/Facebook World Symptom Survey is discon
 3)	Run the part of the script that is not commented out. The number of differences, first and last differences per variables, new variables and variables no more available will be listed in the output. In the function show_all_differences_in_one_var() you can set a variable name to get all differences for.
 4)	In the commented out section you can update variables with all new or with selected records and add new variables.
 5)	If you want to save the updated data local, run the functions save_data() at the end of the code.
-6)	If you want to save the updated data to Google Sheets, run the functions save_data_online at the end of the code. In this case you need to have an authentication file in a directory called “.secrets” within the working directory. The authentication file is uploaded to Canvas.
+6)	If you want to save the updated data to Google Sheets, run the functions save_data_online at the end of the code. In this case you need to have an authentication file in a directory called “.secrets” within the working directory. 
 
 ## 2.4.	Random Forest Modelling and Hierarchical Clustering
 
@@ -188,14 +188,14 @@ As one of our main data sources, the UMD/Facebook World Symptom Survey is discon
 2)	Script: cluster/Hierarchical_cluster.R
 3)	Run the whole script. Returns with clusters to which the countries are assigned.
 
-### 2.4.2. Random Forest modelling for countries
+### 2.4.2. Random Forest modeling for countries
 1)	Prerequisites:
 >> - helpers/Prepare_run.R
 >> - Time-varying database is loaded (tdata)
 2)	Script: random_forest/Random_forest.R
 3)	Run the whole script. Returns RF timeslice models by countries.
 
-### 2.4.3. Random Forest modelling for clusters
+### 2.4.3. Random Forest modeling for clusters
 1)	Prerequisites:
 >> - helpers/Prepare_run.R
 >> - cluster/Hierarchical_cluster.R
